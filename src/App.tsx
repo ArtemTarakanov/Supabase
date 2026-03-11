@@ -7,6 +7,7 @@ import DashBoard from "./components/DachBoard.tsx";
 import Api from "./components/Api.tsx";
 import Auth from "./components/Auth.tsx";
 import Start from "./components/Start.tsx";
+import Footer from "./components/Footer.tsx";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Auth/>
         <Api/>
         <Start/>
+        <Footer/>
     </>
   )
 }
