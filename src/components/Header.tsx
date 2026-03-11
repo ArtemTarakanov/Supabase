@@ -4,19 +4,19 @@ export default function Header(){
     const [isOpen, setIsOpen] = useState(false);
     return(
         <section className = "h-16.25 bg-[#181818] flex justify-around items-center">
-            <div className = "flex gap-6 items-center">
+            <div className = "flex gap-8 items-center">
                 <img src="/images/logotype.svg" alt="logotype"/>
-                <ul className = "flex gap-10 font-['Roboto'] text-sm font-normal leading-5 text-[#EEEEEE] max-md:hidden">
-                    <a href="#">Product</a>
-                    <a href="#">Developers</a>
-                    <a href="#">Beta</a>
-                    <a href="#">Pricing</a>
+                <ul className = "flex gap-4 font-['Roboto'] text-sm font-normal leading-5 text-[#EEEEEE] max-md:hidden">
+                    <a href="#" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Product</a>
+                    <a href="#" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Developers</a>
+                    <a href="#" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Beta</a>
+                    <a href="#" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Pricing</a>
                 </ul>
             </div>
 
             <div className = "flex gap-4 items-center max-md:hidden">
-                <a href="#" className = "font-['Roboto'] font-bold text-xs leading-4 text-center text-[#FFFFFF] bg-[#24B47E] rounded-sm h-7.5 px-2.75 py-1.75 shadow-[#0000000B]">Start your project</a>
-                <a href="#" className = "font-['Roboto'] font-bold text-sm leading-5 text-center text-[#FFFFFF]">Sign in</a>
+                <a href="#" className = "font-['Roboto'] font-bold text-xs leading-4 text-center text-[#FFFFFF] bg-[#24B47E] rounded-sm h-7.5 px-2.75 py-1.75 shadow-[#0000000B] hover:-translate-y-1.25 hover:shadow-5xl">Start your project</a>
+                <a href="#" className = "font-['Roboto'] font-bold text-sm leading-5 text-center text-[#FFFFFF] hover:-translate-y-1.25 hover:shadow-5xl">Sign in</a>
             </div>
 
             <button onClick = {()=>{
