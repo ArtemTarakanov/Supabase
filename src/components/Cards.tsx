@@ -18,7 +18,7 @@ export default function Cards(){
         }
     ]
     return(
-        <section className = "h-100 w-full bg-[#181818] flex items-center justify-center max-md:h-auto max-md:py-25">
+        <section id="features" className = "h-100 w-full bg-[#181818] flex items-center justify-center max-md:h-auto max-md:py-25">
             <div className = "flex gap-25 max-md:flex max-md:flex-col ">
                 {card.map((item, index)=>(
                     <div key={index} className="max-w-70 flex flex-col gap-4 text-white max-md:items-center">

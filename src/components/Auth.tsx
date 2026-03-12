@@ -1,6 +1,6 @@
 export default function Auth(){
     return(
-        <section className = "bg-[#181818] h-175 flex items-center justify-center max-md:h-auto max-md:py-8 max-md:px-4">
+        <section id="auth" className = "bg-[#181818] h-175 flex items-center justify-center max-md:h-auto max-md:py-8 max-md:px-4">
             <div className = "flex flex-row gap-40 max-md:flex-col max-md:gap-8">
 
 

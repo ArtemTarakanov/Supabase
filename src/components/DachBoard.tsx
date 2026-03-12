@@ -1,6 +1,6 @@
 export default function DashBoard(){
     return(
-        <section className = "flex  bg-[#181818] h-200 items-center justify-center max-md:h-auto max-md:py-8 max-md:px-4">
+        <section id="dashboard" className = "flex  bg-[#181818] h-200 items-center justify-center max-md:h-auto max-md:py-8 max-md:px-4">
             <div className = "flex flex-col gap-16 max-md:gap-8">
 
                 <div className = "flex flex-col gap-4 max-md:text-center max-md:gap-3">

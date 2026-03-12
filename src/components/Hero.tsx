@@ -1,6 +1,6 @@
 export default function Hero(){
     return(
-        <section className = "bg-[#181818] h-150 flex flex-row items-center justify-center max-md:h-auto max-md:py-8 max-md:px-4">
+        <section id="hero" className = "bg-[#181818] h-150 flex flex-row items-center justify-center max-md:h-auto max-md:py-8 max-md:px-4">
             <div className = "flex flex-row gap-10 max-md:flex max-md:flex-col-reverse max-md:gap-6">
                 <div className = "flex flex-col max-md:items-center max-md:text-center">
 
@@ -16,7 +16,7 @@ export default function Hero(){
                     <h1 className = "font-['Roboto'] font-bold text-5xl leading-14.5 text-white mb-13 max-md:text-3xl max-md:mb-6 max-md:leading-tight">Store and serve <br className="max-md:hidden"/> any type of digital content</h1>
                     <p className = "font-['Roboto'] font-normal text-sm leading-7 text-[#E0E0E0] mb-4 max-w-100 max-md:mb-3 max-md:max-w-none max-md:text-sm">An open source Object store service with unlimited scalability, for any file type.</p>
                     <p className = "font-['Roboto'] font-normal text-sm leading-7 text-[#E0E0E0] mb-16 max-w-100 max-md:mb-8 max-md:max-w-none max-md:text-sm">With custom policies and permissions that are familiar and easy to implement.</p>
-                    <a href="#" className = "font-['Roboto'] font-normal text-sm leading-5 text-center text-white bg-[#24B47E] rounded-sm h-9.5 px-4 py-2 max-w-33 hover:-translate-y-1.25 hover:shadow-5xl max-md:w-full max-md:max-w-none max-md:text-sm max-md:py-3 max-md:flex max-md:items-center max-md:justify-center">Start a project</a>
+                    <a href="#features" className = "font-['Roboto'] font-normal text-sm leading-5 text-center text-white bg-[#24B47E] rounded-sm h-9.5 px-4 py-2 max-w-33 hover:-translate-y-1.25 hover:shadow-5xl max-md:w-full max-md:max-w-none max-md:text-sm max-md:py-3 max-md:flex max-md:items-center max-md:justify-center">Start a project</a>
                 </div>
 
                 <img src="/images/hero.svg" alt="hero image" className = "max-w-140 max-md:w-full max-md:max-w-80 max-md:mx-auto"/>

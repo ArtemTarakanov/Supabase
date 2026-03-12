@@ -7,16 +7,16 @@ export default function Header(){
             <div className = "flex gap-8 items-center">
                 <img src="/images/logotype.svg" alt="logotype"/>
                 <ul className = "flex gap-4 font-['Roboto'] text-sm font-normal leading-5 text-[#EEEEEE] max-md:hidden">
-                    <a href="#" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Product</a>
-                    <a href="#" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Developers</a>
-                    <a href="#" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Beta</a>
-                    <a href="#" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Pricing</a>
+                    <a href="#features" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Product</a>
+                    <a href="#api" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Developers</a>
+                    <a href="#auth" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Beta</a>
+                    <a href="#start" className = "rounded-md px-4 hover:shadow-5xl hover:bg-white hover:text-black ">Pricing</a>
                 </ul>
             </div>
 
             <div className = "flex gap-4 items-center max-md:hidden">
-                <a href="#" className = "font-['Roboto'] font-bold text-xs leading-4 text-center text-[#FFFFFF] bg-[#24B47E] rounded-sm h-7.5 px-2.75 py-1.75 shadow-[#0000000B] hover:-translate-y-1.25 hover:shadow-5xl">Start your project</a>
-                <a href="#" className = "font-['Roboto'] font-bold text-sm leading-5 text-center text-[#FFFFFF] hover:-translate-y-1.25 hover:shadow-5xl">Sign in</a>
+                <a href="#start" className = "font-['Roboto'] font-bold text-xs leading-4 text-center text-[#FFFFFF] bg-[#24B47E] rounded-sm h-7.5 px-2.75 py-1.75 shadow-[#0000000B] hover:-translate-y-1.25 hover:shadow-5xl">Start your project</a>
+                <a href="#footer" className = "font-['Roboto'] font-bold text-sm leading-5 text-center text-[#FFFFFF] hover:-translate-y-1.25 hover:shadow-5xl">Sign in</a>
             </div>
 
             <button onClick = {()=>{
@@ -31,26 +31,26 @@ export default function Header(){
                 <div className = "md:hidden absolute flex flex-col gap-5 bg-[#181818] top-16.25  w-full justify-center items-center py-4 px-4 animate-fadeIn">
 
                         <ul className = "flex gap-3 font-['Roboto'] text-sm font-normal leading-5 text-[#EEEEEE] flex-col items-center justify-center w-full">
-                            <a href="#">Product</a>
+                            <a href="#features">Product</a>
 
                             <div className = "h-[0.25px] w-full bg-gray-400 opacity-75"/>
 
-                            <a href="#">Developers</a>
+                            <a href="#api">Developers</a>
 
                             <div className = "h-[0.25px] w-full bg-gray-400 opacity-75"/>
 
-                            <a href="#">Beta</a>
+                            <a href="#auth">Beta</a>
 
                             <div className = "h-[0.25px] w-full bg-gray-400 opacity-75"/>
 
-                            <a href="#">Pricing</a>
+                            <a href="#start">Pricing</a>
 
                             <div className = "h-[0.25px] w-full bg-gray-400 opacity-75"/>
                         </ul>
 
                         <div className = "flex flex-col gap-2 items-center w-full  ">
-                            <a href="#" className = "font-['Roboto'] font-bold text-sm leading-4 text-center text-[#FFFFFF] bg-[#24B47E] rounded-sm h-8 px-2.75 py-1.75 shadow-[#0000000B] w-full">Start your project</a>
-                            <a href="#" className = "font-['Roboto'] font-bold text-sm leading-5 text-center text-black bg-white rounded-sm h-8 px-2.75 py-1.75 shadow-[#0000000B] w-full ">Sign in</a>
+                            <a href="#start" className = "font-['Roboto'] font-bold text-sm leading-4 text-center text-[#FFFFFF] bg-[#24B47E] rounded-sm h-8 px-2.75 py-1.75 shadow-[#0000000B] w-full">Start your project</a>
+                            <a href="#footer" className = "font-['Roboto'] font-bold text-sm leading-5 text-center text-black bg-white rounded-sm h-8 px-2.75 py-1.75 shadow-[#0000000B] w-full ">Sign in</a>
                         </div>
 
                 </div>

@@ -1,6 +1,6 @@
 export default function Api(){
     return(
-        <section className = "bg-[#181818] h-175 flex items-center justify-center max-md:h-auto max-md:py-8 max-md:px-4">
+        <section id="api" className = "bg-[#181818] h-175 flex items-center justify-center max-md:h-auto max-md:py-8 max-md:px-4">
             <div className = "flex flex-row gap-40 max-md:flex-col max-md:gap-8">
 
                 <div className = "flex flex-col gap-20 max-md:gap-2">
@@ -20,7 +20,7 @@ export default function Api(){
                                 <path d="M5.25 5.25H12.75V12.75" stroke="#A1A1A1" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
 
-                            <a href="#" className = "font-['Roboto'] font-normal text-sm leading-4 text-[#E0E0E0]">Expore documentation</a>
+                            <a href="#api" className = "font-['Roboto'] font-normal text-sm leading-4 text-[#E0E0E0]">Expore documentation</a>
                         </button>
                     </div>
 
